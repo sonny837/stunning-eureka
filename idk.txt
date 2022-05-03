@@ -1,0 +1,209 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local desc = Instance.new("TextButton")
+local desc_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Frame.Position = UDim2.new(0.276055455, 0, 0.282208562, 0)
+Frame.Size = UDim2.new(0, 700, 0, 434)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextButton.Size = UDim2.new(0, 700, 0, 82)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextButton_2.BackgroundTransparency = 9.000
+TextButton_2.Position = UDim2.new(-0.491428584, 0, -1.49011612e-08, 0)
+TextButton_2.Size = UDim2.new(0, 863, 0, 42)
+TextButton_2.Font = Enum.Font.ArialBold
+TextButton_2.Text = "NELEXIC"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(67, 215, 255)), ColorSequenceKeypoint.new(0.72, Color3.fromRGB(89, 244, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 102))}
+UIGradient.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextButton_3.BackgroundTransparency = 9.000
+TextButton_3.Position = UDim2.new(0.127142861, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 818, 0, 30)
+TextButton_3.Font = Enum.Font.ArialBold
+TextButton_3.Text = "The Greatest Exploit Gui"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(67, 215, 255)), ColorSequenceKeypoint.new(0.72, Color3.fromRGB(89, 244, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 102))}
+UIGradient_2.Parent = TextButton_3
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(189, 0, 3)
+TextButton_4.Position = UDim2.new(0.951428592, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 34, 0, 25)
+TextButton_4.Font = Enum.Font.ArialBold
+TextButton_4.Text = "X"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_2.Parent = TextButton_4
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 9.000
+TextLabel.Position = UDim2.new(-0.194285721, 0, 0.069124423, 0)
+TextLabel.Size = UDim2.new(0, 700, 0, 50)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Pet Simulator X"
+TextLabel.TextColor3 = Color3.fromRGB(102, 229, 117)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 9.000
+TextLabel_2.Position = UDim2.new(0.268571436, 0, 0.069124423, 0)
+TextLabel_2.Size = UDim2.new(0, 700, 0, 50)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "Ruin The Game."
+TextLabel_2.TextColor3 = Color3.fromRGB(229, 229, 229)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(108, 209, 255)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(252, 255, 184)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(193, 213, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = TextLabel_2
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_5.Position = UDim2.new(0.0228571426, 0, 0.24654378, 0)
+TextButton_5.Size = UDim2.new(0, 172, 0, 96)
+TextButton_5.Font = Enum.Font.Cartoon
+TextButton_5.Text = "Max Tech Coins [VISUAL]"
+TextButton_5.TextColor3 = Color3.fromRGB(115, 112, 177)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_3.Parent = TextButton_5
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_6.Position = UDim2.new(0.392857134, 0, 0.24654378, 0)
+TextButton_6.Size = UDim2.new(0, 172, 0, 96)
+TextButton_6.Font = Enum.Font.Cartoon
+TextButton_6.Text = "Max Gems [VISUAL]"
+TextButton_6.TextColor3 = Color3.fromRGB(86, 187, 230)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_4.Parent = TextButton_6
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_7.Position = UDim2.new(0.741428554, 0, 0.24654378, 0)
+TextButton_7.Size = UDim2.new(0, 172, 0, 96)
+TextButton_7.Font = Enum.Font.Cartoon
+TextButton_7.Text = "Max Rank [BUGGY]"
+TextButton_7.TextColor3 = Color3.fromRGB(137, 230, 188)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_8.Position = UDim2.new(0.0557142869, 0, 0.539170504, 0)
+TextButton_8.Size = UDim2.new(0, 250, 0, 96)
+TextButton_8.Font = Enum.Font.Cartoon
+TextButton_8.Text = "Merchant Buy Pet [CRASHES 75% OF THE TIME]"
+TextButton_8.TextColor3 = Color3.fromRGB(137, 230, 188)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_5.Parent = TextButton_8
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_9.Position = UDim2.new(0.53285712, 0, 0.539170504, 0)
+TextButton_9.Size = UDim2.new(0, 250, 0, 96)
+TextButton_9.Font = Enum.Font.Cartoon
+TextButton_9.Text = "Autobuy Area: OFF"
+TextButton_9.TextColor3 = Color3.fromRGB(137, 230, 188)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_6.Parent = TextButton_9
+
+desc.Name = "desc"
+desc.Parent = Frame
+desc.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+desc.BackgroundTransparency = 9.000
+desc.Position = UDim2.new(0.53285712, 0, 0.760368645, 0)
+desc.Size = UDim2.new(0, 250, 0, 96)
+desc.Font = Enum.Font.Cartoon
+desc.Text = "Might be patched/broken."
+desc.TextColor3 = Color3.fromRGB(230, 230, 230)
+desc.TextScaled = true
+desc.TextSize = 14.000
+desc.TextWrapped = true
+
+desc_2.Name = "desc"
+desc_2.Parent = Frame
+desc_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+desc_2.Position = UDim2.new(0.0557142869, 0, 0.815668166, 0)
+desc_2.Size = UDim2.new(0, 250, 0, 47)
+desc_2.Font = Enum.Font.Cartoon
+desc_2.Text = "Enter Pet Name Here..."
+desc_2.TextColor3 = Color3.fromRGB(230, 230, 230)
+desc_2.TextScaled = true
+desc_2.TextSize = 14.000
+desc_2.TextTransparency = 0.900
+desc_2.TextWrapped = true
+
+UICorner_7.Parent = Frame
